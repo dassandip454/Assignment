@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.profile-card {
+    width: 300px;
+    height: 400px;
+    background-color: #e8e8db;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-picture {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 24px;
+    color: #2bd0d8;
+    margin-bottom: 5px;
+}
+
+.occupation {
+    font-size: 18px;
+    color: #e88e8e;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 16px;
+    color: #0f0d0d;
+}
+
+.contact {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.contact li {
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 8px;
+    text-align: center;
+}
